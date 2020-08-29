@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--<link rel="stylesheet" href="/public/styles/style_index.css">-->
+    <link rel="stylesheet" href="/public/styles/bootstrap.css">
+    <link rel="stylesheet" href="/public/styles/for_all.css">
+    <link rel="stylesheet" href="/public/styles/projects.css">
+    <!--<link rel="stylesheet" href="/public/styles/jquery.fancybox.min.css">-->
+
+    <script src="https://kit.fontawesome.com/08bc25f688.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="/javascripts/pace.js"></script>
+    <!--<script src="/javascripts/jquery.fancybox.min.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/src/jquery.bez.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+    <link rel="icon" href="/public/images/pngs/image_Prancheta 1.png">
+    <title>Equipe RoboCap</title>
+
+</head>
+
+<body>
+
+    <div class="container" id="blur">
+
+        <div id="preloader">
+            <img class="p" src="/public/images/pngs/gif_web_small.gif" alt="Preloader">
+            <div id="bar">
+                <div>
+
+                </div>
+            </div>
+        </div>
+
+        <header>
+            <div class="menu">
+                <a href="index.html#equipe">EQUIPE</a>
+                <a href="index.html#news">NOTÍCIAS</a>
+                <a href="index.html#projects">PROJETOS</a>
+                <a href="index.html"><img src="/public/images/pngs/image_Prancheta 1.png"
+                        alt="Logo da RoboCap - Menu"></a>
+                <a href="index.html#patr">PATROCÍNIO</a>
+                <a href="index.html#contr">CONTRIBUA</a>
+                <a href="#" onclick="toggle()">CONTATO</a>
+            </div>
+        </header>
+
+
+        <!--GALERIA-->
+        <div class="gallery">
+
+            <center>
+                <div class="title_proj">
+                    <h1>PROJETOS</h1>
+                    <img src="/public/images/image-02.svg" alt="underline do título">
+                </div>
+            </center>
+
+            <center class="proj">
+                
+                <a data-fancybox="gallery" href="/public/images/projects/wallpaper_1.jpg" data-caption="Lorem ipsum dolor sit amet 1">
+                    <div class="container_2">
+
+                        <img src="/public/images/projects/wallpaper_1.jpg">
+
+                        <div class="overlay">
+                            <div class="text">PROJETO 01</div>
+                        </div>
+                    </div>
+                </a>
+                
+                <a data-fancybox="gallery" href="/public/images/projects/wallpaper_2.jpeg" data-caption="Lorem ipsum dolor sit amet 2">
+                    <div class="container_2">
+
+                        <img src="/public/images/projects/wallpaper_2.jpeg">
+
+                        <div class="overlay">
+                            <div class="text">PROJETO 02</div>
+                        </div>
+                    </div>
+                </a>
+                
+                <a data-fancybox="gallery" href="/public/images/projects/wallpaper_3.jpg" data-caption="Lorem ipsum dolor sit amet 3">
+                    <div class="container_2">
+
+                        <img src="/public/images/projects/wallpaper_3.jpg">
+
+                        <div class="overlay">
+                            <div class="text">PROJETO 03</div>
+                        </div>
+                    </div>
+                </a>
+
+                
+                <a data-fancybox="gallery" href="/public/images/projects/wallpaper_4.jpg" data-caption="Lorem ipsum dolor sit amet 4">
+                    <div class="container_2">
+
+                        <img src="/public/images/projects/wallpaper_4.jpg">
+
+                        <div class="overlay">
+                            <div class="text">PROJETO 04</div>
+                        </div>
+                    </div>
+                </a>
+
+                
+                <a data-fancybox="gallery" href="/public/images/projects/wallpaper_5.jpg" data-caption="Lorem ipsum dolor sit amet 5">
+                    <div class="container_2">
+
+                        <img src="/public/images/projects/wallpaper_5.jpg">
+
+                        <div class="overlay">
+                            <div class="text">PROJETO 05</div>
+                        </div>
+                    </div>
+                </a>
+
+                
+                <a data-fancybox="gallery" href="/public/images/projects/wallpaper_6.jpg" data-caption="Lorem ipsum dolor sit amet 6">
+                    <div class="container_2">
+
+                        <img src="/public/images/projects/wallpaper_6.jpg">
+
+                        <div class="overlay">
+                            <div class="text">PROJETO 06</div>
+                        </div>
+                    </div>
+                </a>
+
+                <a data-fancybox="gallery" href="/public/images/projects/wallpaper_1.jpg" data-caption="Lorem ipsum dolor sit amet 7">
+                    <div class="container_2">
+
+                        <img src="/public/images/projects/wallpaper_1.jpg">
+
+                        <div class="overlay">
+                            <div class="text">PROJETO 07</div>
+                        </div>
+                    </div>
+                </a>
+                
+                <a data-fancybox="gallery" href="/public/images/projects/wallpaper_2.jpeg" data-caption="Lorem ipsum dolor sit amet 8">
+                    <div class="container_2">
+
+                        <img src="/public/images/projects/wallpaper_2.jpeg">
+
+                        <div class="overlay">
+                            <div class="text">PROJETO 08</div>
+                        </div>
+                    </div>
+                </a>
+                
+                <a data-fancybox="gallery" href="/public/images/projects/wallpaper_3.jpg" data-caption="Lorem ipsum dolor sit amet 9">
+                    <div class="container_2">
+
+                        <img src="/public/images/projects/wallpaper_3.jpg">
+
+                        <div class="overlay">
+                            <div class="text">PROJETO 09</div>
+                        </div>
+                    </div>
+                </a>
+    
+            
+            </center>
+            
+
+        </div>
+
+
+
+
+        <!--RODAPÉ-->
+        <footer>
+            <img src="/public/images/pngs/image-06.png" alt="Logo da RoboCap (Footer)">
+
+            <div class="copy">
+                <p>Equipe RoboCap | Copyright&copy; - 2019</p>
+            </div>
+
+            <div class="social">
+                <a href="#" onclick="toggle()">
+                    <img src="/public/images/icons/image-10.svg" alt="contato">
+                </a>
+
+                <a href="https://www.instagram.com/equiperobocap/" target="_blank">
+                    <img src="/public/images/icons/image-09.svg" alt="instagram">
+                </a>
+
+                <a href="https://api.whatsapp.com/send?l=pt_BR&phone=+5538991858001&text=Boa tarde! Gostaria de Entrar em Contato com a equipe RoboCap"
+                    target="_blank">
+                    <img src="/public/images/icons/image-08.svg" alt="whatsapp">
+                </a>
+            </div>
+        </footer>
+    </div>
+
+    <div id="contact_popUp">
+        <a onclick="toggle()"><span class="material-icons">
+                close
+            </span></a>
+        <form action="https://formspree.io/xpzybwpz" method="POST">
+            <input name="NOME" type="text" placeholder="Nome" required>
+            <input name="E-MAIL" type="email" placeholder="Email" required>
+            <textarea name="MENSAGEM" id="" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+            <button type="submit" onclick="toggle()">Enviar</button>
+        </form>
+    </div>
+
+    <script src="/javascripts/toggleContact.js"></script>
+    <script src="/javascripts/preLoader.js"></script>
+
+</body>
+
+</html>
