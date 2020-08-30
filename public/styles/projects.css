@@ -68,7 +68,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     width: 50%;
 
     margin-bottom: 6%;
