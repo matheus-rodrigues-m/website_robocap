@@ -131,6 +131,8 @@ footer {
 
     background-color: var(--color-red);
 
+    bottom: 0;
+
 }
 
 footer img {
@@ -291,13 +293,13 @@ footer .social img:hover {
 
 #contact_popUp a {
     position: absolute;
-    margin-left: 13vw;
+    margin-left: 25vw;
     margin-top: -6%;
 }
 
 @media(max-width: 800px) {
     #contact_popUp a {
-        margin-top: -13%;
+        margin-top: -8%;
     }
 }
 
