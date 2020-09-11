@@ -293,13 +293,22 @@ footer .social img:hover {
 
 #contact_popUp a {
     position: absolute;
+    margin: 0 auto;
     margin-left: 25vw;
     margin-top: -6%;
 }
 
 @media(max-width: 800px) {
     #contact_popUp a {
+        margin-left: 25vw;
         margin-top: -8%;
+    }
+}
+
+@media(max-width: 700px) {
+    #contact_popUp a {
+        margin-left: 25vw;
+        margin-top: -12%;
     }
 }
 
